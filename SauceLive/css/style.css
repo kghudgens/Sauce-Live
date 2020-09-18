@@ -1,0 +1,150 @@
+/* Make entire screen black, fix font, font size, and make font white */
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 3rem;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background:black;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* put text to middle */
+.introduction{
+    text-align: center;
+}
+.welcome{
+    letter-spacing: 5px;
+}
+.statement_one{
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* make the text the correct color */
+#sauce{
+    color: purple;
+}
+
+/* make the text the correct color */
+#live{
+    color: yellow;
+}
+/* put the content to left of the screen */
+.about{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+/* put the content to right of the screen */
+.visit{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.about, .visit{
+    line-height: 2rem;
+}
+
+/* center text */
+#menu{
+    clear: both;
+    text-align: center;
+
+}
+.set, .items, .seafood, .catering, .side, .beverages{
+    line-height: 2rem;
+}
+
+/* set menu in place */
+.set{
+    float: left;
+    width: 33%;
+}
+/* set menu in place */
+
+.items{
+    float: left;
+    width: 33%;
+}
+/* set menu in place */
+
+.seafood{
+    float: right;
+    width: 33%;
+}
+/* set menu in place */
+
+.catering{
+    float: left;
+    width: 33%;
+}
+/* set menu in place */
+
+.side{
+    float: left;
+    width: 33%;
+}
+/* set menu in place */
+
+.beverages{
+    float: right;
+    width: 33%;
+}
+
+#cuisine_cocktail{
+    clear: both;
+    text-align: center;
+}
+
+#m1{
+    float: left;
+    width: 33%;
+}
+
+#m2{
+    float: left;
+    width: 33%;
+}
+
+#m3{
+    float: right;
+    width: 33%;
+}
+
+#m4{
+    float: left;
+    width: 33%;
+}
+#m7{
+    float: left;
+    width: 33%;
+}
+#m9{
+    float: right;
+    width: 33%;
+}
+
+#up{
+    clear: both;
+}
+.video{
+    clear: both;
+    text-align: center;
+    padding-top: 1px;
+}
+
+#m1, #m2, #m3, #m4, #m7, #m9{
+    margin:  ;
+}
+
+#googleMap{
+    width: 100%;
+    height: 400px;
+}
